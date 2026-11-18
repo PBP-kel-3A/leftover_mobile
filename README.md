@@ -4,7 +4,7 @@
 
 LeftOver adalah aplikasi mobile rekomendasi resep yang membantu mahasiswa, anak kos, dan keluarga memanfaatkan bahan makanan yang tersisa sebelum kedaluwarsa atau terbuang. Aplikasi ini terintegrasi langsung dengan platform web LeftOver.
 
-[**Tautan APK (menyusul)**]() · [**Desain Figma**](https://www.figma.com/design/MVE4zOAzM8PyQj1AfHIKZM/LeftOver?node-id=1-2&t=YFxZ7RLrrGsnCGk6-1) · [**Tautan APK**](#) *(Menyusul setelah Checkpoint 1)*
+[**Desain Figma**](https://www.figma.com/design/MVE4zOAzM8PyQj1AfHIKZM/LeftOver?node-id=1-2&t=YFxZ7RLrrGsnCGk6-1) · [**Tautan APK**](#) *(Menyusul setelah Checkpoint 1)*
 
 ---
 

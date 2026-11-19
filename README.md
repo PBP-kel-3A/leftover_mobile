@@ -4,7 +4,8 @@
 
 LeftOver adalah aplikasi mobile rekomendasi resep yang membantu mahasiswa, anak kos, dan keluarga memanfaatkan bahan makanan yang tersisa sebelum kedaluwarsa atau terbuang. Aplikasi ini terintegrasi langsung dengan platform web LeftOver.
 
-[**Desain Figma**](https://www.figma.com/design/MVE4zOAzM8PyQj1AfHIKZM/LeftOver?node-id=1-2&t=YFxZ7RLrrGsnCGk6-1) · [**Tautan APK**](#) *(Menyusul setelah Checkpoint 1)*
+
+[**Website LeftOver**](https://raffa-zia-leftover.pws.cs.ui.ac.id) ·[**Desain Figma**](https://www.figma.com/design/MVE4zOAzM8PyQj1AfHIKZM/LeftOver?node-id=1-2&t=YFxZ7RLrrGsnCGk6-1) · [**Tautan APK**](#) *(Menyusul setelah Checkpoint 1)*
 
 ---
 
@@ -43,3 +44,17 @@ Aplikasi mobile LeftOver (Flutter) tidak menyimpan data secara lokal maupun mand
 4. **Ulasan dan Penilaian (*Reviews and Ratings*):** Pengguna terautentikasi dapat memberikan rating (1-5 bintang), menulis pengalaman memasak, dan mengunggah foto dokumentasi.
 5. **Resep Favorit (*Favorite Recipes*):** Menyimpan resep pilihan ke dalam daftar personal agar mudah diakses kembali beserta catatan khusus.
 6. **Autentikasi & Landing Page:** Sistem login/registrasi pengguna serta tampilan utama (beranda) yang memperkenalkan fitur aplikasi.
+
+## Daftar Endpoint API (Django REST Framework)
+**Base URL (PWS):** `https://raffa-zia-leftover.pws.cs.ui.ac.id`  
+**Repositori Web Django:** `https://github.com/PBP-kel-3A/LeftOver`
+
+| Modul | Endpoint | Method | Keterangan |
+|---|---|---|---|
+| Auth | `/api/auth/login/` | POST | Login pengguna |
+| Auth | `/api/auth/register/` | POST | Registrasi akun baru |
+| Auth | `/api/auth/logout/` | POST | Logout pengguna |
+| Reviews | `/api/reviews/` | GET, POST | Lihat daftar & tambah ulasan |
+| Reviews | `/api/reviews/<id>/` | GET, PUT, PATCH, DELETE | Detail, edit, & hapus ulasan |
+| Recipes | `/api/recipes/` | GET, POST | Lihat daftar & tambah resep |
+| Recipes | `/api/recipes/<id>/` | GET, PUT, PATCH, DELETE | Detail, edit, & hapus resep |
